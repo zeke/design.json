@@ -1,9 +1,9 @@
-# thing.json
+# design.json
 
 A schema for describing the things I make with my computer. It is intended to describe not only the purpose
-of a thing, but what it looks like: its color, its logo, its font.
+of a thing, but what it looks like: its color, its logo, its font, etc.
 
-## Examples of Things
+## Uses
 
 - apps
 - webservices
@@ -11,7 +11,7 @@ of a thing, but what it looks like: its color, its logo, its font.
 - projects
 - blog posts
 
-## The Schema
+## Schema
 
 ```json
 {
@@ -23,6 +23,3 @@ of a thing, but what it looks like: its color, its logo, its font.
   "color": "#F00"
 }
 ```
-
-
-
