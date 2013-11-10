@@ -1,14 +1,18 @@
 {
   "name": "thing-init",
   "version": "0.0.0",
-  "description": "",
+  "description": "A schema for describing the things you make.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "thing": "./index.js"
+  },
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "prompt": "~0.2.11"
+    "prompt": "~0.2.11",
+    "iniparser": "~1.0.5"
   }
 }
