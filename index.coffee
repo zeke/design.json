@@ -1,3 +1,5 @@
+#!/usr/bin/env coffee
+
 fs = require("fs")
 iniparser = require("iniparser")
 prompt = require("prompt")
